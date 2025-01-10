@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Beakman</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title><?php echo 'Beakman'; ?></title>
+  <meta name="description" content="<?php echo 'Beakman Interiors offers expert interior design, home automation, custom furniture, and renovation services in New York and beyond.'; ?>">
+  <meta name="keywords" content="<?php echo 'Interior Design Solutions, Home Automation Services, Custom Furniture Makers, Handcrafted Drapery, Renovation and Remodeling Services, Motorized Shades Installation, Modern Interior Design, Real Estate Revitalization, Cabinet Distribution and Installation, Upholstery Services, Interior Designers in New York, Home Renovation Services in Huntington Station, Cabinet Installation in the Northeast, Custom Drapery in Huntington Station, New York Real Estate Flipping, Bespoke Interior Design, Automated Shades by Lutron®, Custom Upholstery for Furniture, Professional Home Remodeling, Cabinet Sales and Installation, Advanced Motorized Blinds, Real Estate Flipping Experts, Home Automation Systems, Affordable Interior Design Services in New York, Customized Drapery and Blinds Solutions, High-End Home Renovations with Expert Designers, Where to Get Motorized Shades Installed in NY, Best Cabinet Installation Services Near Me, Beakman Interiors, Beakman Home Automation, Beakman Custom Furniture, Beakman Drapery Services, Residential Interior Design Experts, Commercial Property Renovations, Interior Design for Modern Spaces, Luxurious Home Automation Solutions'; ?>">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?php echo "assets/img/"; ?>favicon.png" rel="icon">
+  <link href="<?php echo "assets/img/"; ?>apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -18,22 +19,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="<?php echo "assets/vendor/"; ?>bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php echo "assets/vendor/"; ?>bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="<?php echo "assets/vendor/"; ?>aos/aos.css" rel="stylesheet">
+  <link href="<?php echo "assets/vendor/"; ?>glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="<?php echo "assets/vendor/"; ?>swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="<?php echo "assets/css/"; ?>main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Dewi
-  * Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body class="index-page">
@@ -41,37 +36,18 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <a href="home.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.png" alt="">
-        <!--  <h1 class="sitename">Dewi</h1> -->
+        <img src="<?php echo "assets/img/"; ?>logo.png" alt="Beakmen">
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#index.php" class="active">Home</a></li>
           <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-
-          <li><a href="#portfolio">Our Story</a></li>
+          <li><a href="./services.php">Services</a></li>
+          <li><a href="#features">Our Story</a></li>
           <li><a href="#team">Team</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -87,11 +63,11 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/lillistar-sunset.jpg" alt="" data-aos="fade-in">
+      <img src="<?php echo "assets/img/"; ?>lillistar-sunset.jpg" alt="Beakman" data-aos="fade-in">
 
       <div class="container d-flex flex-column align-items-center">
         <h2 data-aos="fade-up" data-aos-delay="100">Beakman Interiors, Automation, & More</h2>
-        <p data-aos="fade-up" data-aos-delay="200">Where Innovation Meets Craftsmanship.</p>
+        <p data-aos="fade-up" data-aos-delay="200">"Transforming Spaces, Elevating Lives."</p>
         <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
           <a href="#about" class="btn-get-started">Get Started</a>
           <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
@@ -102,62 +78,86 @@
 
     <!-- About Section -->
     <section id="about" class="about section">
-        <div class="container section-title" data-aos="fade-up">
-        <h2>About Us</h2>
-        <p>Beakman Interiors, Automation, & More<br></p>
-    </div>
-      <div class="container">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>About Us</h2>
+    <p>Beakman Interiors, Automation, &amp; More</p>
+  </div>
 
-        <div class="row gy-4">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3>Welcome to Beakman Interiors, Automation, & More, where innovation meets craftsmanship.</h3>
-            <img src="assets/img/IMG_2081.webp" class="img-fluid rounded-4 mb-4" alt="">
-            <!-- <p>Our story begins with a passion for transforming spaces into masterpieces. Rooted in a rich tradition of design and construction excellence, we combine decades of expertise with cutting-edge technology to deliver tailored solutions for homes and businesses alike.</p>
-            <p>Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nihil vitae quo officia vel. Blanditiis eligendi possimus et in cum. Quidem eos ut sint rem veniam qui. Ut ut repellendus nobis tempore doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque deleniti repellendus.</p> -->
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
-            <div class="content ps-0 ps-lg-5">
-              <p class="fst-italic">
-                Our story begins with a passion for transforming spaces into masterpieces. Rooted in a rich tradition of design and construction excellence, we combine decades of expertise with cutting-edge technology to deliver tailored solutions for homes and businesses alike.
-                <br><b>With a focus on innovation, we specialize in:</b></br>
-              </p>
-              <ul>
-                <ul>
-    <li>
-        <i class="bi bi-check-circle-fill" aria-hidden="true"></i> 
-        <span><b>Interior Design:</b> Creating bespoke spaces that reflect your style and elevate your living experience.</span>
-    </li>
-    <li>
-        <i class="bi bi-check-circle-fill" aria-hidden="true"></i> 
-        <span><b>Automation Solutions:</b> Partnering with leading manufacturers to offer advanced motorized shades and smart systems that enhance comfort and convenience.</span>
-    </li>
-    <li>
-        <i class="bi bi-check-circle-fill" aria-hidden="true"></i> 
-        <span><b>Custom Furniture & Upholstery:</b> Working with Home Interiors by Anthony Giaramita in crafting unique pieces that blend functionality with beauty.</span>
-    </li>
-    <li>
-        <i class="bi bi-check-circle-fill" aria-hidden="true"></i> 
-        <span><b>Remodeling & Real Estate Revitalization:</b> Breathing new life into properties through meticulous design and construction.</span>
-    </li>
-</ul>
+  <div class="container">
+    <div class="row gy-4">
 
-              </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-              </p>
-
-              <!-- <div class="position-relative mt-4">
-                <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
-              </div> -->
+      <!-- Left Column -->
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <h3>Where Innovation Meets Craftsmanship.</h3>
+        <div id="aboutSlideshow" class="carousel slide rounded-4 mb-4" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="<?php echo "assets/img/"; ?>about/1.png" class="img-fluid rounded-4 mb-4" alt="Beakman Interiors Showcase 1">
+            </div>
+            <div class="carousel-item">
+              <img src="<?php echo "assets/img/"; ?>about/2.png" class="img-fluid rounded-4 mb-4" alt="Beakman Interiors Showcase 2">
+            </div>
+            <div class="carousel-item">
+              <img src="<?php echo "assets/img/"; ?>about/3.png" class="img-fluid rounded-4 mb-4" alt="Beakman Interiors Showcase 3">
+            </div>
+            <div class="carousel-item">
+              <img src="<?php echo "assets/img/"; ?>about/4.png" class="img-fluid rounded-4 mb-4" alt="Beakman Interiors Showcase 4">
+            </div>
+            <div class="carousel-item">
+              <img src="<?php echo "assets/img/"; ?>about/5.png" class="d-block w-100" alt="Beakman Interiors Showcase 5">
+            </div>
+            <div class="carousel-item">
+              <img src="<?php echo "assets/img/"; ?>about/6.png" class="img-fluid rounded-4 mb-4" alt="Beakman Interiors Showcase 6">
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#aboutSlideshow" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#aboutSlideshow" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-
       </div>
 
-    </section><!-- /About Section -->
+      <!-- Right Column -->
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+        <div class="content ps-0 ps-lg-5">
+          <p class="fst-italic">
+            Our story begins with a passion for transforming spaces into masterpieces. Rooted in a rich tradition of design and construction excellence, we combine decades of expertise with cutting-edge technology to deliver tailored solutions for homes and businesses alike.
+            <br><b>With a focus on innovation, we specialize in:</b>
+          </p>
+
+          <ul class="list-unstyled">
+            <li>
+              <i class="bi bi-check-circle-fill text-primary"></i>
+              <strong>Interior Design:</strong> Creating bespoke spaces that reflect your style and elevate your living experience.
+            </li>
+            <li>
+              <i class="bi bi-check-circle-fill text-primary"></i>
+              <strong>Automation Solutions:</strong> Partnering with leading manufacturers to offer advanced motorized shades and smart systems that enhance comfort and convenience.
+            </li>
+            <li>
+              <i class="bi bi-check-circle-fill text-primary"></i>
+              <strong>Custom Furniture &amp; Upholstery:</strong> Working with Home Interiors by Anthony Giaramita to craft unique pieces that blend functionality with beauty.
+            </li>
+            <li>
+              <i class="bi bi-check-circle-fill text-primary"></i>
+              <strong>Remodeling &amp; Real Estate Revitalization:</strong> Breathing new life into properties through meticulous design and construction.
+            </li>
+          </ul>
+
+          <p>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
     <!-- Stats Section -->
     
@@ -229,13 +229,13 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services/design.jpg" class="img-fluid" alt="">
+                <img src="<?php echo "assets/img/"; ?>services/design.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
                   <i class="bi bi-pencil"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
+                <a href="./services.php" class="stretched-link">
                   <h3>Design</h3>
                 </a>
                 <!-- <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p> -->
@@ -246,13 +246,13 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services/drapery.jpg" class="img-fluid" alt="">
+                <img src="<?php echo "assets/img/"; ?>services/drapery.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
                   <i class="bi bi-broadcast"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
+                <a href="./services.php" class="stretched-link">
                   <h3>Custom Drapery and Window Treatments</h3>
                 </a>
                 <!-- <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p> -->
@@ -262,13 +262,13 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services/upholstery.webp" class="img-fluid" alt="">
+                <img src="<?php echo "assets/img/"; ?>services/upholstery.webp" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
                   <i class="bi bi-broadcast"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
+                <a href="./services.php" class="stretched-link">
                   <h3>Custom Furniture and Upholstery</h3>
                 </a>
                 <!-- <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p> -->
@@ -279,13 +279,13 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services/realestate.jpg" class="img-fluid" alt="">
+                <img src="<?php echo "assets/img/"; ?>services/realestate.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
                   <i class="bi bi-broadcast"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
+                <a href="./services.php" class="stretched-link">
                   <h3>Real Estate Revitalization</h3>
                 </a>
                 <!-- <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p> -->
@@ -297,13 +297,13 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services/SG.jpg" class="img-fluid" alt="">
+                <img src="<?php echo "assets/img/"; ?>services/SG.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
                   <i class="bi bi-easel"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
+                <a href="./services.php" class="stretched-link">
                   <h3>Cabinetry</h3>
                 </a>
                 <!-- <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p> -->
@@ -325,27 +325,27 @@
         <div class="row gy-4">
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+            <img src="<?php echo "assets/img/"; ?>clients/client-1.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            <img src="<?php echo "assets/img/"; ?>clients/client-2.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            <img src="<?php echo "assets/img/"; ?>clients/client-3.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            <img src="<?php echo "assets/img/"; ?>clients/client-4.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+            <img src="<?php echo "assets/img/"; ?>clients/client-5.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            <img src="<?php echo "assets/img/"; ?>clients/client-6.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
         </div>
@@ -417,7 +417,7 @@
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/our story.png" alt="" class="img-fluid">
+                <img src="<?php echo "assets/img/"; ?>our story.png" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -445,7 +445,7 @@
               </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-2.jpg" alt="" class="img-fluid">
+                <img src="<?php echo "assets/img/"; ?>working-2.jpg" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -473,12 +473,12 @@
       </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-3.jpg" alt="" class="img-fluid">
+                <img src="<?php echo "assets/img/"; ?>working-3.jpg" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
 
-          <div class="tab-pane fade" id="features-tab-4">
+          <!-- <div class="tab-pane fade" id="features-tab-4">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                 <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
@@ -498,10 +498,10 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-4.jpg" alt="" class="img-fluid">
+                <img src="<?php echo "assets/img/"; ?>working-4.jpg" alt="" class="img-fluid">
               </div>
             </div>
-          </div><!-- End Tab Content Item -->
+          </div> --><!-- End Tab Content Item -->
 
         </div>
 
@@ -609,179 +609,7 @@
     <!-- Testimonials Section -->
     
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>CHECK OUR PORTFOLIO</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
+    
 
     <!-- Team Section -->
     <section id="team" class="team section light-background">
@@ -798,7 +626,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
-              <div class="pic"><img src="assets/img/team/team-1.png" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="<?php echo "assets/img/"; ?>team/team-1.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>James Aravena</h4>
                 <span>Real Estate and Construction</span>
@@ -818,7 +646,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
-              <div class="pic"><img src="assets/img/team/team-2.png" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="<?php echo "assets/img/"; ?>team/team-2.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Frank Giaramita</h4>
                 <span>Real Estate and Construction</span>
@@ -838,7 +666,7 @@
 
           <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="<?php echo "assets/img/"; ?>team/team-3.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>William Anderson</h4>
                 <span>CTO</span>
@@ -864,7 +692,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur</p>
+        <p>Connect With Us!</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -901,36 +729,41 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
-              <div class="row gy-4">
+    <form action="" method="post" id="contactForm" class="" data-aos="fade-up" data-aos-delay="500">
+        <h2>Contact Us</h2>
+        <div class="row gy-4">
+            <div class="col-md-6">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                <small class="error-message" id="nameError"></small>
+            </div>
 
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
+            <div class="col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <small class="error-message" id="emailError"></small>
+            </div>
 
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
+            <div class="col-md-12">
+                <input type="text" name="contact" id="contact" class="form-control" placeholder="Your Contact Number" required>
+                <small class="error-message" id="contactError"></small>
+            </div>
 
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
+            <div class="col-md-12">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <small class="error-message" id="subjectError"></small>
+            </div>
 
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
-                </div>
+            <div class="col-md-12">
+                <textarea class="form-control" name="message" id="message" rows="4" placeholder="Message" required></textarea>
+                <small class="error-message" id="messageError"></small>
+            </div>
 
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
+            <div class="col-md-12 text-center">
+                <button type="submit" name="send">Send Message</button>
+            </div>
+        </div>
+    </form>
+</div>
+<!-- End Contact Form -->
 
         </div>
 
@@ -945,70 +778,56 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Dewi</span>
+          <a href="home.html" class="logo d-flex align-items-center">
+            <span class="sitename">Beakman Interiors Automation, & More</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <p>261 Broadway, Huntington Station</p>
+            <p>New York 11746, United States</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>(718) 483-5256</span></p>
+            <p><strong>Email:</strong> <span>James@homeintag.com <br> Frank@homeintag.com</span></p>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#home">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#features">Our Story</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#team">Team</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="./services.php">Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="./services.php">Custom Drapery and Window Treatments</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="./services.php">Custom Furniture and Upholstery</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="./services.php">Real Estate Revitalization</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="./services.php">Cabinetry</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Our Newsletter</h4>
-          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-          </form>
+          <h4>Social Media</h4>
+          <p>Follow Us On</p>
+            <div class="social-links d-flex mt-4">
+            <a href="https://www.instagram.com/homeintag1/  "><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/beakman-interiors-cabinets-automation-923b52341/"><i class="bi bi-linkedin"></i></a>
+            </div>
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename"></strong> <span></span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon -->
-      </div>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename"></strong>Beakman <span></span></p>
+  
     </div>
-
+		
   </footer>
 
   <!-- Scroll Top -->
@@ -1018,18 +837,91 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="<?php echo "assets/vendor/"; ?>bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo "assets/vendor/"; ?>php-email-form/validate.js"></script>
+  <script src="<?php echo "assets/vendor/"; ?>aos/aos.js"></script>
+  <script src="<?php echo "assets/vendor/"; ?>glightbox/js/glightbox.min.js"></script>
+  <script src="<?php echo "assets/vendor/"; ?>purecounter/purecounter_vanilla.js"></script>
+  <script src="<?php echo "assets/vendor/"; ?>swiper/swiper-bundle.min.js"></script>
+  <script src="<?php echo "assets/vendor/"; ?>imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="<?php echo "assets/vendor/"; ?>isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="<?php echo "assets/js/"; ?>main.js"></script>
 
 </body>
 
 </html>
+
+
+<?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+if (isset($_POST['send'])) {
+    $name = trim($_POST['name']);
+    $email = trim($_POST['email']);
+    $contact = trim($_POST['contact']);
+    $subject = trim($_POST['subject']);
+    $message = trim($_POST['message']);
+
+    // Server-side validation
+    $errors = [];
+
+    if (strlen($name) < 3) {
+        $errors[] = "Name must be at least 3 characters long.";
+    }
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors[] = "Invalid email address.";
+    }
+    if (!preg_match('/^[0-9]{10}$/', $contact)) {
+        $errors[] = "Invalid contact number. It should be 10 digits.";
+    }
+    if (strlen($subject) < 5) {
+        $errors[] = "Subject must be at least 5 characters long.";
+    }
+    if (strlen($message) < 10) {
+        $errors[] = "Message must be at least 10 characters long.";
+    }
+
+    if (empty($errors)) {
+        require './Phpmailer/Exception.php';
+        require './Phpmailer/PHPMailer.php';
+        require './Phpmailer/SMTP.php';
+
+        $mail = new PHPMailer(true);
+
+        try {
+            // Server settings
+            $mail->isSMTP();
+            $mail->Host       = 'smtp.gmail.com';
+            $mail->SMTPAuth   = true;
+            $mail->Username   = 'atulcokaco@gmail.com';
+            $mail->Password   = 'ktyf eltv swst zdcq';
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+            $mail->Port       = 465;
+
+            // Recipients
+            $mail->setFrom('atulcokaco@gmail.com', 'Enquiry Details');
+            $mail->addAddress('cakeshavkumarroy@gmail.com ', 'Beakman');
+
+            // Content
+            $mail->isHTML(true);
+            $mail->Subject = $subject;
+            $mail->Body    = "Custmer Name - $name <br> Email - $email <br> Contact - $contact <br> Message - $message";
+
+            $mail->send();
+            echo "<script>
+                    alert('Thank you for connecting with us! Our team will contact you.');
+                    window.location.href = '';
+                  </script>";
+        } catch (Exception $e) {
+            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        }
+    } else {
+        foreach ($errors as $error) {
+            echo "<p style='color:red;'>$error</p>";
+        }
+    }
+}
+?>

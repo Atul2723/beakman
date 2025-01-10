@@ -635,8 +635,8 @@ h2 {
 }
 
 .footer .footer-links ul i {
-  padding-right: 3px;
-  font-size: 13px;
+  padding-right: 5px;
+  font-size: 20px;
   line-height: 0;
   color: var(--accent-color);
 }
@@ -877,7 +877,7 @@ section,
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 25px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -891,7 +891,7 @@ section,
 .section-title h2::after {
   content: "";
   width: 120px;
-  height: 1px;
+  height: 2px;
   display: inline-block;
   background: var(--accent-color);
   margin: 4px 10px;
@@ -1460,8 +1460,8 @@ section,
   cursor: pointer;
   display: inline-block;
   padding: 0;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 600;
   margin: 0 10px;
   line-height: 1;
   margin-bottom: 5px;
@@ -1783,14 +1783,14 @@ section,
 --------------------------------------------------------------*/
 .service-details .services-list {
   background-color: var(--surface-color);
-  padding: 10px 30px;
+  padding: 15px 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   margin-bottom: 20px;
 }
 
 .service-details .services-list a {
   display: block;
-  line-height: 1;
+  line-height: 2;
   padding: 8px 0 8px 15px;
   border-left: 3px solid color-mix(in srgb, var(--default-color), transparent 70%);
   margin: 20px 0;
@@ -1800,7 +1800,7 @@ section,
 
 .service-details .services-list a.active {
   color: var(--heading-color);
-  font-weight: 700;
+  font-weight: 900;
   border-color: var(--accent-color);
 }
 
@@ -1823,7 +1823,7 @@ section,
 }
 
 .service-details p {
-  font-size: 15px;
+  font-size: 36px;
 }
 
 .service-details ul {
